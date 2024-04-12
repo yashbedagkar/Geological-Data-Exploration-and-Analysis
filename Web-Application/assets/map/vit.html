@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4d4816bc5f88b24163be54ab64fdce6d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4d4816bc5f88b24163be54ab64fdce6d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4d4816bc5f88b24163be54ab64fdce6d = L.map(
+                "map_4d4816bc5f88b24163be54ab64fdce6d",
+                {
+                    center: [18.46389388128025, 73.86789217287108],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6db0e99dfe4793e8687e95fc2bed1f84 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4d4816bc5f88b24163be54ab64fdce6d);
+        
+    
+            var circle_marker_0b70e531ba48631b1cc323aa274606ab = L.circleMarker(
+                [18.46615, 73.84635],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4d4816bc5f88b24163be54ab64fdce6d);
+        
+    
+        var popup_259546696a234a881fe690c78e27ae06 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ad71beb0222e767ddc67e20db2019003 = $(`<div id="html_ad71beb0222e767ddc67e20db2019003" style="width: 100.0%; height: 100.0%;">Snehal Bungalow</div>`)[0];
+                popup_259546696a234a881fe690c78e27ae06.setContent(html_ad71beb0222e767ddc67e20db2019003);
+            
+        
+
+        circle_marker_0b70e531ba48631b1cc323aa274606ab.bindPopup(popup_259546696a234a881fe690c78e27ae06)
+        ;
+
+        
+    
+    
+            var circle_marker_9e8a6218f1ba968417b558cb9681f5a5 = L.circleMarker(
+                [18.46559, 73.84597],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4d4816bc5f88b24163be54ab64fdce6d);
+        
+    
+        var popup_2681b31dff569b08b90ce5d59ebd2c0a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_75395fe8cff87c7a9bb5be2d30882f09 = $(`<div id="html_75395fe8cff87c7a9bb5be2d30882f09" style="width: 100.0%; height: 100.0%;">Sinavane Building</div>`)[0];
+                popup_2681b31dff569b08b90ce5d59ebd2c0a.setContent(html_75395fe8cff87c7a9bb5be2d30882f09);
+            
+        
+
+        circle_marker_9e8a6218f1ba968417b558cb9681f5a5.bindPopup(popup_2681b31dff569b08b90ce5d59ebd2c0a)
+        ;
+
+        
+    
+    
+            var circle_marker_5af6cfe5f67aa0976835e7a81da47089 = L.circleMarker(
+                [18.46938, 73.8461],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4d4816bc5f88b24163be54ab64fdce6d);
+        
+    
+        var popup_afefbee494684fb5bd21b867684cc3c3 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_19e89f511c66fd3b36fb4a66abd2eba4 = $(`<div id="html_19e89f511c66fd3b36fb4a66abd2eba4" style="width: 100.0%; height: 100.0%;">E-Seva</div>`)[0];
+                popup_afefbee494684fb5bd21b867684cc3c3.setContent(html_19e89f511c66fd3b36fb4a66abd2eba4);
+            
+        
+
+        circle_marker_5af6cfe5f67aa0976835e7a81da47089.bindPopup(popup_afefbee494684fb5bd21b867684cc3c3)
+        ;
+
+        
+    
+    
+            var circle_marker_ae41b8efd81cedd95b194a7eaf720fe3 = L.circleMarker(
+                [18.47071, 73.84537],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4d4816bc5f88b24163be54ab64fdce6d);
+        
+    
+        var popup_7b1707952021fae985e2d365b7694eeb = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5b665824e826c208e4bc01baa36ac80a = $(`<div id="html_5b665824e826c208e4bc01baa36ac80a" style="width: 100.0%; height: 100.0%;">Trimurti Niwas (Patole)</div>`)[0];
+                popup_7b1707952021fae985e2d365b7694eeb.setContent(html_5b665824e826c208e4bc01baa36ac80a);
+            
+        
+
+        circle_marker_ae41b8efd81cedd95b194a7eaf720fe3.bindPopup(popup_7b1707952021fae985e2d365b7694eeb)
+        ;
+
+        
+    
+    
+            var circle_marker_e22107ad7404c707807f271b1bdbec16 = L.circleMarker(
+                [18.47221, 73.84523],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4d4816bc5f88b24163be54ab64fdce6d);
+        
+    
+        var popup_6c4f27c844ffc455fabb344b2a99d233 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4b81aeb14e39db5d6237fdc3c9f7952a = $(`<div id="html_4b81aeb14e39db5d6237fdc3c9f7952a" style="width: 100.0%; height: 100.0%;">Spring Hills Society</div>`)[0];
+                popup_6c4f27c844ffc455fabb344b2a99d233.setContent(html_4b81aeb14e39db5d6237fdc3c9f7952a);
+            
+        
+
+        circle_marker_e22107ad7404c707807f271b1bdbec16.bindPopup(popup_6c4f27c844ffc455fabb344b2a99d233)
+        ;
+
+        
+    
+    
+            var circle_marker_5355e158aede12864ae17b728992dcb1 = L.circleMarker(
+                [18.49191, 73.83348],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4d4816bc5f88b24163be54ab64fdce6d);
+        
+    
+        var popup_b6eeba8698c401f579c3bb98e3645416 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_248b37fd450034773b446c021a2efa32 = $(`<div id="html_248b37fd450034773b446c021a2efa32" style="width: 100.0%; height: 100.0%;">Bhamini Arcade</div>`)[0];
+                popup_b6eeba8698c401f579c3bb98e3645416.setContent(html_248b37fd450034773b446c021a2efa32);
+            
+        
+
+        circle_marker_5355e158aede12864ae17b728992dcb1.bindPopup(popup_b6eeba8698c401f579c3bb98e3645416)
+        ;
+
+        
+    
+    
+            var circle_marker_3cd925df99040537fcf6ed15ff085161 = L.circleMarker(
+                [18.49212, 73.83353],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4d4816bc5f88b24163be54ab64fdce6d);
+        
+    
+        var popup_5062159f234ef1a435bc187b8e6e15d6 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_79e908ac7da8755ff8eec7cbe320e6d5 = $(`<div id="html_79e908ac7da8755ff8eec7cbe320e6d5" style="width: 100.0%; height: 100.0%;">Sunit Riddhi Siddhi Apartment</div>`)[0];
+                popup_5062159f234ef1a435bc187b8e6e15d6.setContent(html_79e908ac7da8755ff8eec7cbe320e6d5);
+            
+        
+
+        circle_marker_3cd925df99040537fcf6ed15ff085161.bindPopup(popup_5062159f234ef1a435bc187b8e6e15d6)
+        ;
+
+        
+    
+    
+            var circle_marker_e57ebb46c6ff07b7ef3d3c18810694bf = L.circleMarker(
+                [18.4921, 73.83324],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4d4816bc5f88b24163be54ab64fdce6d);
+        
+    
+        var popup_0f797d864d9a9ed4e9766dafe43b72ec = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ec96e88257ef8e2919b8f720f2d9c9a6 = $(`<div id="html_ec96e88257ef8e2919b8f720f2d9c9a6" style="width: 100.0%; height: 100.0%;">Sai Heritage Society, Sinhagad Road, Pune</div>`)[0];
+                popup_0f797d864d9a9ed4e9766dafe43b72ec.setContent(html_ec96e88257ef8e2919b8f720f2d9c9a6);
+            
+        
+
+        circle_marker_e57ebb46c6ff07b7ef3d3c18810694bf.bindPopup(popup_0f797d864d9a9ed4e9766dafe43b72ec)
+        ;
+
+        
+    
+    
+            var circle_marker_24e9542aa7e6263240e4528aa634b627 = L.circleMarker(
+                [18.49109, 73.83206],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4d4816bc5f88b24163be54ab64fdce6d);
+        
+    
+        var popup_c23c0132e4af68632c59985fa030eaa5 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8f363c04a2ee5504428fdbe5a4679ac1 = $(`<div id="html_8f363c04a2ee5504428fdbe5a4679ac1" style="width: 100.0%; height: 100.0%;">Aditya Nakoda Phase-1</div>`)[0];
+                popup_c23c0132e4af68632c59985fa030eaa5.setContent(html_8f363c04a2ee5504428fdbe5a4679ac1);
+            
+        
+
+        circle_marker_24e9542aa7e6263240e4528aa634b627.bindPopup(popup_c23c0132e4af68632c59985fa030eaa5)
+        ;
+
+        
+    
+    
+            var circle_marker_70ac83740fff3f7d8df486337c023acf = L.circleMarker(
+                [18.49094, 73.83182],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4d4816bc5f88b24163be54ab64fdce6d);
+        
+    
+        var popup_07da4c35f105c096d1f788986eb2569e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8c0dcfad21dd6a2167f123d1dd7e71fd = $(`<div id="html_8c0dcfad21dd6a2167f123d1dd7e71fd" style="width: 100.0%; height: 100.0%;">Block-K6</div>`)[0];
+                popup_07da4c35f105c096d1f788986eb2569e.setContent(html_8c0dcfad21dd6a2167f123d1dd7e71fd);
+            
+        
+
+        circle_marker_70ac83740fff3f7d8df486337c023acf.bindPopup(popup_07da4c35f105c096d1f788986eb2569e)
+        ;
+
+        
+    
+    
+            var circle_marker_7887b9ce3443b9c32a97bceb1436a0a5 = L.circleMarker(
+                [18.49434, 73.83424],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4d4816bc5f88b24163be54ab64fdce6d);
+        
+    
+        var popup_a0c84c3c901b323a2d1f9fd0b9983824 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_574d630529ab0d3fc4c68d09c84a2c70 = $(`<div id="html_574d630529ab0d3fc4c68d09c84a2c70" style="width: 100.0%; height: 100.0%;">Shwetambari Apartments</div>`)[0];
+                popup_a0c84c3c901b323a2d1f9fd0b9983824.setContent(html_574d630529ab0d3fc4c68d09c84a2c70);
+            
+        
+
+        circle_marker_7887b9ce3443b9c32a97bceb1436a0a5.bindPopup(popup_a0c84c3c901b323a2d1f9fd0b9983824)
+        ;
+
+        
+    
+    
+            var circle_marker_53a5a2f51535f7bb1bb1f52a5e466ab0 = L.circleMarker(
+                [18.49364, 73.83348],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4d4816bc5f88b24163be54ab64fdce6d);
+        
+    
+        var popup_13d4e37f0371ab527b19a184e80eba4b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_748c1aeb76f9177e33d8a117d1f7fcc0 = $(`<div id="html_748c1aeb76f9177e33d8a117d1f7fcc0" style="width: 100.0%; height: 100.0%;">Kadambari Apts.</div>`)[0];
+                popup_13d4e37f0371ab527b19a184e80eba4b.setContent(html_748c1aeb76f9177e33d8a117d1f7fcc0);
+            
+        
+
+        circle_marker_53a5a2f51535f7bb1bb1f52a5e466ab0.bindPopup(popup_13d4e37f0371ab527b19a184e80eba4b)
+        ;
+
+        
+    
+    
+            var circle_marker_2d366704bd453936cdbb8a092f25b027 = L.circleMarker(
+                [18.49521, 73.83489],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4d4816bc5f88b24163be54ab64fdce6d);
+        
+    
+        var popup_643c01a11d9448acb2897ba39736cf92 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f145abce6952b4963dd3f28945afe04f = $(`<div id="html_f145abce6952b4963dd3f28945afe04f" style="width: 100.0%; height: 100.0%;">Maulikrupa Apartment</div>`)[0];
+                popup_643c01a11d9448acb2897ba39736cf92.setContent(html_f145abce6952b4963dd3f28945afe04f);
+            
+        
+
+        circle_marker_2d366704bd453936cdbb8a092f25b027.bindPopup(popup_643c01a11d9448acb2897ba39736cf92)
+        ;
+
+        
+    
+    
+            var circle_marker_6dad7303c359b9acf0e21ebf264cdf97 = L.circleMarker(
+                [18.49294, 73.83259],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4d4816bc5f88b24163be54ab64fdce6d);
+        
+    
+        var popup_9943b8aec0e671ebb5df654d93b7f149 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8e9acb96435ed1f0d81cb9ab89083509 = $(`<div id="html_8e9acb96435ed1f0d81cb9ab89083509" style="width: 100.0%; height: 100.0%;">Radhika Co Op Hsg Society</div>`)[0];
+                popup_9943b8aec0e671ebb5df654d93b7f149.setContent(html_8e9acb96435ed1f0d81cb9ab89083509);
+            
+        
+
+        circle_marker_6dad7303c359b9acf0e21ebf264cdf97.bindPopup(popup_9943b8aec0e671ebb5df654d93b7f149)
+        ;
+
+        
+    
+    
+            var circle_marker_ba155e75ed42c7c5a490e79af8060e5e = L.circleMarker(
+                [18.49647, 73.83578],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4d4816bc5f88b24163be54ab64fdce6d);
+        
+    
+        var popup_993695ad89e2e0966cc94be97c992b2b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5dab528e5b79ab0a18e93ca8cdb64320 = $(`<div id="html_5dab528e5b79ab0a18e93ca8cdb64320" style="width: 100.0%; height: 100.0%;">Sayli Apartment</div>`)[0];
+                popup_993695ad89e2e0966cc94be97c992b2b.setContent(html_5dab528e5b79ab0a18e93ca8cdb64320);
+            
+        
+
+        circle_marker_ba155e75ed42c7c5a490e79af8060e5e.bindPopup(popup_993695ad89e2e0966cc94be97c992b2b)
+        ;
+
+        
+    
+    
+            var circle_marker_0e8c49257b63eeb0bf5db65e08beec1a = L.circleMarker(
+                [18.49405, 73.83322],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4d4816bc5f88b24163be54ab64fdce6d);
+        
+    
+        var popup_6b1154ce16263459bd18b1efe05749ff = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1e12609dfa94c3142277b0915b8761ff = $(`<div id="html_1e12609dfa94c3142277b0915b8761ff" style="width: 100.0%; height: 100.0%;">Amit Dharap</div>`)[0];
+                popup_6b1154ce16263459bd18b1efe05749ff.setContent(html_1e12609dfa94c3142277b0915b8761ff);
+            
+        
+
+        circle_marker_0e8c49257b63eeb0bf5db65e08beec1a.bindPopup(popup_6b1154ce16263459bd18b1efe05749ff)
+        ;
+
+        
+    
+    
+            var circle_marker_e152a1df6d9643afa28ae81e4621f772 = L.circleMarker(
+                [18.49515, 73.83398],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4d4816bc5f88b24163be54ab64fdce6d);
+        
+    
+        var popup_066819348cc4760f5dcc0518b6f4eb5d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9b31e7e072325fa706217de46fc7806b = $(`<div id="html_9b31e7e072325fa706217de46fc7806b" style="width: 100.0%; height: 100.0%;">Sarita Vihar Apartments</div>`)[0];
+                popup_066819348cc4760f5dcc0518b6f4eb5d.setContent(html_9b31e7e072325fa706217de46fc7806b);
+            
+        
+
+        circle_marker_e152a1df6d9643afa28ae81e4621f772.bindPopup(popup_066819348cc4760f5dcc0518b6f4eb5d)
+        ;
+
+        
+    
+    
+            var circle_marker_e989ce4a506f8f42dccf493160538f5d = L.circleMarker(
+                [18.50677, 73.8537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4d4816bc5f88b24163be54ab64fdce6d);
+        
+    
+        var popup_144dfa03f8c0e33b6d9c969c14be0dbc = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7e01ffab8b3f9a891f5b178281d58786 = $(`<div id="html_7e01ffab8b3f9a891f5b178281d58786" style="width: 100.0%; height: 100.0%;">Umaa Niwas</div>`)[0];
+                popup_144dfa03f8c0e33b6d9c969c14be0dbc.setContent(html_7e01ffab8b3f9a891f5b178281d58786);
+            
+        
+
+        circle_marker_e989ce4a506f8f42dccf493160538f5d.bindPopup(popup_144dfa03f8c0e33b6d9c969c14be0dbc)
+        ;
+
+        
+    
+    
+            var circle_marker_9f14275a12a3552bc26e76775c22c240 = L.circleMarker(
+                [18.49798, 73.8369],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4d4816bc5f88b24163be54ab64fdce6d);
+        
+    
+        var popup_284e393a3abb52f9485732ed589afdfe = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4c48c9f24c425314efe7854e8cf71eaa = $(`<div id="html_4c48c9f24c425314efe7854e8cf71eaa" style="width: 100.0%; height: 100.0%;">Amrendra Shri Society</div>`)[0];
+                popup_284e393a3abb52f9485732ed589afdfe.setContent(html_4c48c9f24c425314efe7854e8cf71eaa);
+            
+        
+
+        circle_marker_9f14275a12a3552bc26e76775c22c240.bindPopup(popup_284e393a3abb52f9485732ed589afdfe)
+        ;
+
+        
+    
+    
+            var circle_marker_f7798cfd14f5df683b5ba90103660078 = L.circleMarker(
+                [18.5072, 73.85368],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4d4816bc5f88b24163be54ab64fdce6d);
+        
+    
+        var popup_ac8126365dde95a0a49eb91618f847b5 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b317eff55f300f88d7f8cc6d29126e19 = $(`<div id="html_b317eff55f300f88d7f8cc6d29126e19" style="width: 100.0%; height: 100.0%;">Balaji House</div>`)[0];
+                popup_ac8126365dde95a0a49eb91618f847b5.setContent(html_b317eff55f300f88d7f8cc6d29126e19);
+            
+        
+
+        circle_marker_f7798cfd14f5df683b5ba90103660078.bindPopup(popup_ac8126365dde95a0a49eb91618f847b5)
+        ;
+
+        
+    
+    
+            var feature_group_6e4bfee3a227902ef28a059ee2f56ada = L.featureGroup(
+                {}
+            ).addTo(map_4d4816bc5f88b24163be54ab64fdce6d);
+        
+    
+            var marker_cd3d96d88ef1fe4a2b22c00bdc2fbe11 = L.marker(
+                [18.46389388128025, 73.86789217287108],
+                {}
+            ).addTo(map_4d4816bc5f88b24163be54ab64fdce6d);
+        
+    
+        var popup_8329187ed09287c8a638491661445b8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85aa335612b3689714655a7f2fb2af0e = $(`<div id="html_85aa335612b3689714655a7f2fb2af0e" style="width: 100.0%; height: 100.0%;">VIT</div>`)[0];
+                popup_8329187ed09287c8a638491661445b8b.setContent(html_85aa335612b3689714655a7f2fb2af0e);
+            
+        
+
+        marker_cd3d96d88ef1fe4a2b22c00bdc2fbe11.bindPopup(popup_8329187ed09287c8a638491661445b8b)
+        ;
+
+        
+    
+</script>
+</html>

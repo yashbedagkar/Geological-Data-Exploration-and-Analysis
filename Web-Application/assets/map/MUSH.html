@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a86aeef6df59bf60ba5049c237634c98 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a86aeef6df59bf60ba5049c237634c98" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a86aeef6df59bf60ba5049c237634c98 = L.map(
+                "map_a86aeef6df59bf60ba5049c237634c98",
+                {
+                    center: [20.078863167905634, 73.80262426437777],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_009ba83a8ee94861d8ae3253ce97a14f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a86aeef6df59bf60ba5049c237634c98);
+        
+    
+            var circle_marker_555cadc870ecba12ad3018738ada2882 = L.circleMarker(
+                [20.0524, 73.79214],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a86aeef6df59bf60ba5049c237634c98);
+        
+    
+        var popup_301fe4c76569efd3023371ab239b4de0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_327f924e5c550e1db7b5e8a5bc958564 = $(`<div id="html_327f924e5c550e1db7b5e8a5bc958564" style="width: 100.0%; height: 100.0%;">Atharva Row House</div>`)[0];
+                popup_301fe4c76569efd3023371ab239b4de0.setContent(html_327f924e5c550e1db7b5e8a5bc958564);
+            
+        
+
+        circle_marker_555cadc870ecba12ad3018738ada2882.bindPopup(popup_301fe4c76569efd3023371ab239b4de0)
+        ;
+
+        
+    
+    
+            var circle_marker_021e162ed6a4cdfb74047392e02b5e75 = L.circleMarker(
+                [20.01796, 73.75665],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a86aeef6df59bf60ba5049c237634c98);
+        
+    
+        var popup_d6c7cbb1c2f921ad8fb209cb0b0c76b6 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3d9b9b4cbd95f711d4035cbf6ef25142 = $(`<div id="html_3d9b9b4cbd95f711d4035cbf6ef25142" style="width: 100.0%; height: 100.0%;">Citrrekha Apartment</div>`)[0];
+                popup_d6c7cbb1c2f921ad8fb209cb0b0c76b6.setContent(html_3d9b9b4cbd95f711d4035cbf6ef25142);
+            
+        
+
+        circle_marker_021e162ed6a4cdfb74047392e02b5e75.bindPopup(popup_d6c7cbb1c2f921ad8fb209cb0b0c76b6)
+        ;
+
+        
+    
+    
+            var circle_marker_c43bc1f3d7de6df30a7ed5195e8b0ccc = L.circleMarker(
+                [20.00719, 73.77082],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a86aeef6df59bf60ba5049c237634c98);
+        
+    
+        var popup_9303c9d37e6979354c8b5293273d8f2c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6e3bb055bee637dc69d211fee9cf14d9 = $(`<div id="html_6e3bb055bee637dc69d211fee9cf14d9" style="width: 100.0%; height: 100.0%;">Navkar Society</div>`)[0];
+                popup_9303c9d37e6979354c8b5293273d8f2c.setContent(html_6e3bb055bee637dc69d211fee9cf14d9);
+            
+        
+
+        circle_marker_c43bc1f3d7de6df30a7ed5195e8b0ccc.bindPopup(popup_9303c9d37e6979354c8b5293273d8f2c)
+        ;
+
+        
+    
+    
+            var circle_marker_8d90a50a6403227133c885ee2665e990 = L.circleMarker(
+                [20.00583, 73.76546],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a86aeef6df59bf60ba5049c237634c98);
+        
+    
+        var popup_cbb0fbe6eb10ee3d9cc87d99008d5b4c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f8a3d4c76fea0c97d603091befba52ac = $(`<div id="html_f8a3d4c76fea0c97d603091befba52ac" style="width: 100.0%; height: 100.0%;">Ram Janki Complex</div>`)[0];
+                popup_cbb0fbe6eb10ee3d9cc87d99008d5b4c.setContent(html_f8a3d4c76fea0c97d603091befba52ac);
+            
+        
+
+        circle_marker_8d90a50a6403227133c885ee2665e990.bindPopup(popup_cbb0fbe6eb10ee3d9cc87d99008d5b4c)
+        ;
+
+        
+    
+    
+            var circle_marker_0c9b4f6dda5c22409911e19f730c8e2c = L.circleMarker(
+                [19.99399, 73.77342],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a86aeef6df59bf60ba5049c237634c98);
+        
+    
+        var popup_8bfa8adc262f677eb980ebec08dfa62e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3c3cafe48d939558a7b5cc513c2f252a = $(`<div id="html_3c3cafe48d939558a7b5cc513c2f252a" style="width: 100.0%; height: 100.0%;">Nashik District Majur Sangha Office</div>`)[0];
+                popup_8bfa8adc262f677eb980ebec08dfa62e.setContent(html_3c3cafe48d939558a7b5cc513c2f252a);
+            
+        
+
+        circle_marker_0c9b4f6dda5c22409911e19f730c8e2c.bindPopup(popup_8bfa8adc262f677eb980ebec08dfa62e)
+        ;
+
+        
+    
+    
+            var feature_group_4ac75ea62b90b1d558882743d8e55863 = L.featureGroup(
+                {}
+            ).addTo(map_a86aeef6df59bf60ba5049c237634c98);
+        
+    
+            var marker_f9d8bf6a5336f9c108d690ed70c3b666 = L.marker(
+                [20.078863167905634, 73.80262426437777],
+                {}
+            ).addTo(map_a86aeef6df59bf60ba5049c237634c98);
+        
+    
+        var popup_da7484c618ecf9bf25ce36a140c73666 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce5f8b9af1e66df7b2f946b9d5e8ebb8 = $(`<div id="html_ce5f8b9af1e66df7b2f946b9d5e8ebb8" style="width: 100.0%; height: 100.0%;">MUSH</div>`)[0];
+                popup_da7484c618ecf9bf25ce36a140c73666.setContent(html_ce5f8b9af1e66df7b2f946b9d5e8ebb8);
+            
+        
+
+        marker_f9d8bf6a5336f9c108d690ed70c3b666.bindPopup(popup_da7484c618ecf9bf25ce36a140c73666)
+        ;
+
+        
+    
+</script>
+</html>
